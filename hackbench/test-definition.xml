@@ -23,4 +23,48 @@
     <InternalTags>SMP</InternalTags>
     <Maintainer>Jianshen Liu</Maintainer>
   </TestProfile>
+  <TestSettings>
+    <Default>
+      <Arguments>-s 1024 -l 500 -g 20 -f 50</Arguments>
+    </Default>
+    <Option>
+      <DisplayName>Data Communication</DisplayName>
+      <Identifier>data-communication</Identifier>
+      <ArgumentPrefix></ArgumentPrefix>
+      <ArgumentPostfix></ArgumentPostfix>
+      <DefaultEntry>0</DefaultEntry>
+      <Menu>
+        <Entry>
+          <Name>Pipes</Name>
+          <Value>--pipe</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>Sockets</Name>
+          <Value></Value>
+          <Message></Message>
+        </Entry>
+      </Menu>
+    </Option>
+    <Option>
+      <DisplayName>Entity Type</DisplayName>
+      <Identifier>entity-type</Identifier>
+      <ArgumentPrefix></ArgumentPrefix>
+      <ArgumentPostfix></ArgumentPostfix>
+      <DefaultEntry>0</DefaultEntry>
+      <Menu>
+        <Entry>
+          <Name>Process</Name>
+          <Value>--process</Value>
+          <Message></Message>
+        </Entry>
+        <Entry>
+          <Name>Thread</Name>
+          <Value>--threads</Value>
+          <Message></Message>
+        </Entry>
+      </Menu>
+    </Option>
+
+  </TestSettings>
 </PhoronixTestSuite>
