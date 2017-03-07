@@ -4,9 +4,9 @@ Provide additional test profiles that aren't in Phoromatic/PTS repository.
 
 ## How to use
 
-1. `cd ~/.phoronix-test-suite/installed-tests/local`
+1. `cd ~/.phoronix-test-suite/test-profiles/local`
 
-2. `git clone https://github.com/ljishen/phoronix-test-profiles.git`
+2. `git clone https://github.com/ljishen/phoronix-test-profiles.git .`
 
 3. Check all local test profiles
    ```bash
