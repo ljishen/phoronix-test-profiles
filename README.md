@@ -27,7 +27,7 @@ Provide additional test profiles that aren't in Phoromatic/PTS repository.
 | Banchmark     | Notes                           |
 | ------------- |---------------------------------|
 | hackbench     | Scheduler benchmark/stress test |
-| interbench    | Linux interactivity benchmark <br/> <ul><li>Require root or at least real time privileges.</li><li>Some combinations of option `Benchmark` and  `Load Type` may not produce result as the result value is `0` in the case of message `The test run did not produce a result`. Check the log file in `installed-tests/local/interbench` for more detail.</li></ul> |
+| interbench    | Linux interactivity benchmark <br/><br/> <ul><li>Require root or at least real time privileges.</li><li>Some combinations of option `Benchmark` and  `Load Type` may not produce result as the result value is `0` in the case of message `The test run did not produce a result`. Check the log file in `installed-tests/local/interbench` for more detail.</li></ul> |
 
 
 ## Troubleshooting
