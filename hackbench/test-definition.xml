@@ -28,8 +28,8 @@
       <Arguments>-s 1024 -l 500 -g 20 -f 50</Arguments>
     </Default>
     <Option>
-      <DisplayName>Data Communication</DisplayName>
-      <Identifier>data-communication</Identifier>
+      <DisplayName>Communication Type</DisplayName>
+      <Identifier>communication-type</Identifier>
       <ArgumentPrefix></ArgumentPrefix>
       <ArgumentPostfix></ArgumentPostfix>
       <DefaultEntry>0</DefaultEntry>
@@ -65,6 +65,5 @@
         </Entry>
       </Menu>
     </Option>
-
   </TestSettings>
 </PhoronixTestSuite>

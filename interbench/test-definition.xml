@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.0.0 (Ringsaker)-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>Interbench</Title>
+    <AppVersion>0.31</AppVersion>
+    <Description>Interbench is an interactivity benchmark written by Con Kolivas. Interbench is primarily intended to test out the system kernel and its CPU scheduler while running a simulated test with a given simulated load in the background. Each benchmark / load runs for 60 seconds per test.</Description>
+    <ResultScale>Max Latency ms</ResultScale>
+    <Proportion>LIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.2</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SoftwareType>Utility</SoftwareType>
+    <TestType>System</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <ExternalDependencies>build-utilities</ExternalDependencies>
+    <RequiresRoot>TRUE</RequiresRoot>
+    <EnvironmentSize>4000</EnvironmentSize>
+    <ProjectURL>https://github.com/ckolivas/interbench</ProjectURL>
+    <InternalTags>SMP</InternalTags>
+    <Maintainer>Jianshen Liu</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Default>
+      <AllowCacheShare>TRUE</AllowCacheShare>
+      <Arguments>-t 60</Arguments>
+    </Default>
+    <Option>
+      <DisplayName>Benchmark</DisplayName>
+      <Identifier>benchmark</Identifier>
+      <ArgumentPrefix>-W </ArgumentPrefix>
+      <Menu>
+        <Entry>
+          <Name>X</Name>
+          <Value>X</Value>
+        </Entry>
+        <Entry>
+          <Name>Audio</Name>
+          <Value>Audio</Value>
+        </Entry>
+        <Entry>
+          <Name>Video</Name>
+          <Value>Video</Value>
+        </Entry>
+        <Entry>
+          <Name>Gaming</Name>
+          <Value>Gaming</Value>
+        </Entry>
+      </Menu>
+    </Option>
+    <Option>
+      <DisplayName>Load Type</DisplayName>
+      <Identifier>load-type</Identifier>
+      <ArgumentPrefix>-w </ArgumentPrefix>
+      <Menu>
+        <Entry>
+          <Name>None</Name>
+          <Value>None</Value>
+        </Entry>
+        <Entry>
+          <Name>Video</Name>
+          <Value>Video</Value>
+        </Entry>
+        <Entry>
+          <Name>X</Name>
+          <Value>X</Value>
+        </Entry>
+        <Entry>
+          <Name>Burn</Name>
+          <Value>Burn</Value>
+        </Entry>
+        <Entry>
+          <Name>Write</Name>
+          <Value>Write</Value>
+        </Entry>
+        <Entry>
+          <Name>Read</Name>
+          <Value>Read</Value>
+        </Entry>
+        <Entry>
+          <Name>Compile</Name>
+          <Value>Compile</Value>
+        </Entry>
+        <Entry>
+          <Name>Memload</Name>
+          <Value>Memload</Value>
+        </Entry>
+      </Menu>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.0.0 (Ringsaker)-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>Write      0.3 +/- 1.1        #_RESULT_#               99.7</OutputTemplate>
+    <LineBeforeHint>Max Latency</LineBeforeHint>
+  </ResultsParser>
+</PhoronixTestSuite>
