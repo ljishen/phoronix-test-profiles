@@ -3,9 +3,11 @@
 Provide additional test profiles that aren't in Phoromatic/PTS repository.
 
 
-## How to use
+## Usage
 
 1. `cd ~/.phoronix-test-suite/test-profiles/local`
+
+   The path may be different if the benchmark requires root privilege. See [Troubleshooting](#troubleshooting) issue 2.
 
 2. `git clone https://github.com/ljishen/phoronix-test-profiles.git .`
 
@@ -18,6 +20,14 @@ Provide additional test profiles that aren't in Phoromatic/PTS repository.
    ```bash
    phoronix-test-suite benchmark [Test]
    ```
+
+
+## Banchmarks
+
+| Banchmark     | Notes                           |
+| ------------- |---------------------------------|
+| hackbench     | Scheduler benchmark/stress test |
+| interbench    | Linux interactivity benchmark <br/> <ul><li>Require root or at least real time privileges.</li><li>Some combinations of option `Benchmark` and  `Load Type` may not produce result as the result value is `0` in the case of message `The test run did not produce a result`. Check the log file in `installed-tests/local/interbench` for more detail.</li></ul> |
 
 
 ## Troubleshooting
@@ -37,6 +47,6 @@ Provide additional test profiles that aren't in Phoromatic/PTS repository.
    - Raspbian: `/var/lib/phoronix-test-suite/test-profiles/local/`
 
 
-## Note
+## Miscellaneous
 
 Tested under Phoronix Test Suite >= v5.2.1 (Khanino)
