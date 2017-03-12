@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.0.0-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>http://brick.kernel.dk/snaps/latt-git-20090910204746.tar.gz</URL>
+      <MD5>41b3220207f802e837e3a6451f833fe9</MD5>
+      <SHA256>ca8321bf057c44b6413c2197b6c890b0954000fe41c7404dda7707f7541a85ba</SHA256>
+      <FileSize>17242</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

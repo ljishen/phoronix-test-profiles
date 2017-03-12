@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!--Phoronix Test Suite v6.8.0-->
+<!--Phoronix Test Suite v7.0.0-->
 <PhoronixTestSuite>
   <TestInformation>
     <Title>Hackbench</Title>
@@ -25,7 +25,7 @@
   </TestProfile>
   <TestSettings>
     <Default>
-      <Arguments>-s 1024 -l 500 -g 20 -f 50</Arguments>
+      <Arguments>-s 512 -l 200 -g 20 -f 50</Arguments>
     </Default>
     <Option>
       <DisplayName>Communication Type</DisplayName>

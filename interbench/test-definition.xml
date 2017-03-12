@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!--Phoronix Test Suite v7.0.0 (Ringsaker)-->
+<!--Phoronix Test Suite v7.0.0-->
 <PhoronixTestSuite>
   <TestInformation>
     <Title>Interbench</Title>
@@ -25,29 +25,34 @@
   </TestProfile>
   <TestSettings>
     <Default>
-      <AllowCacheShare>TRUE</AllowCacheShare>
       <Arguments>-t 60</Arguments>
     </Default>
     <Option>
       <DisplayName>Benchmark</DisplayName>
       <Identifier>benchmark</Identifier>
       <ArgumentPrefix>-W </ArgumentPrefix>
+      <ArgumentPostfix></ArgumentPostfix>
+      <DefaultEntry>0</DefaultEntry>
       <Menu>
         <Entry>
           <Name>X</Name>
           <Value>X</Value>
+          <Message></Message>
         </Entry>
         <Entry>
           <Name>Audio</Name>
           <Value>Audio</Value>
+          <Message></Message>
         </Entry>
         <Entry>
           <Name>Video</Name>
           <Value>Video</Value>
+          <Message></Message>
         </Entry>
         <Entry>
           <Name>Gaming</Name>
           <Value>Gaming</Value>
+          <Message></Message>
         </Entry>
       </Menu>
     </Option>
@@ -55,38 +60,48 @@
       <DisplayName>Load Type</DisplayName>
       <Identifier>load-type</Identifier>
       <ArgumentPrefix>-w </ArgumentPrefix>
+      <ArgumentPostfix></ArgumentPostfix>
+      <DefaultEntry>0</DefaultEntry>
       <Menu>
         <Entry>
           <Name>None</Name>
           <Value>None</Value>
+          <Message></Message>
         </Entry>
         <Entry>
           <Name>Video</Name>
           <Value>Video</Value>
+          <Message></Message>
         </Entry>
         <Entry>
           <Name>X</Name>
           <Value>X</Value>
+          <Message></Message>
         </Entry>
         <Entry>
           <Name>Burn</Name>
           <Value>Burn</Value>
+          <Message></Message>
         </Entry>
         <Entry>
           <Name>Write</Name>
           <Value>Write</Value>
+          <Message></Message>
         </Entry>
         <Entry>
           <Name>Read</Name>
           <Value>Read</Value>
+          <Message></Message>
         </Entry>
         <Entry>
           <Name>Compile</Name>
           <Value>Compile</Value>
+          <Message></Message>
         </Entry>
         <Entry>
           <Name>Memload</Name>
           <Value>Memload</Value>
+          <Message></Message>
         </Entry>
       </Menu>
     </Option>
