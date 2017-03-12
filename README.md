@@ -5,6 +5,15 @@ Provide additional test profiles that aren't in Phoromatic/PTS repository.
 
 ## Usage
 
+### Simple verion:
+
+You can run the test(s) by directly downloading from [OpenBenchmarking repository](http://openbenchmarking.org/user/ljishen)
+```bash
+phoronix-test-suite benchmark ljishen/[Test]
+```
+
+### Advanced version:
+
 1. `cd ~/.phoronix-test-suite/test-profiles/local`
 
    The path may be different if the benchmark requires root privilege. See [Troubleshooting](#troubleshooting) issue 2.
@@ -28,6 +37,7 @@ Provide additional test profiles that aren't in Phoromatic/PTS repository.
 | ------------- |---------------------------------|
 | hackbench     | Scheduler benchmark/stress test |
 | interbench    | Linux interactivity benchmark <br/><br/> <ul><li>Require root or at least real time privileges.</li><li>Some combinations of option `Benchmark` and  `Load Type` may not produce result as the result value is `0` in the case of message `The test run did not produce a result`. Check the log file in `installed-tests/local/interbench` for more detail.</li></ul> |
+| latt          | Simple latency tester that combines multiple processes. <br/><br/> <ul><li>Depend on `MPlayer` with `--nosound` and `--vo` options support.</li></ul> |
 
 
 ## Troubleshooting
