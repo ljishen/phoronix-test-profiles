@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.4.0-->
+<PhoronixTestSuite>
+  <ResultsParser>
+  <OutputTemplate>Total                                                  :  #_RESULT_#     250.58      25.44     538.07</OutputTemplate>
+  </ResultsParser>
+</PhoronixTestSuite>
