@@ -2,6 +2,14 @@
 <!--Phoronix Test Suite v7.4.0-->
 <PhoronixTestSuite>
   <ResultsParser>
-  <OutputTemplate>Total                                                  :  #_RESULT_#     250.58      25.44     538.07</OutputTemplate>
+    <OutputTemplate>Total                                                  :  #_RESULT_# |     892.81     140.00      17.05    1027.45</OutputTemplate>
+    <MatchToTestArguments>IOPS</MatchToTestArguments>
+    <ResultScale>IOPS</ResultScale>
+  </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>|     #_RESULT_#     140.00      17.05    1027.45</OutputTemplate>
+    <MatchToTestArguments>THROUGHPUT</MatchToTestArguments>
+    <ResultScale>MB/s</ResultScale>
+    <ResultAfterString>|</ResultAfterString>
   </ResultsParser>
 </PhoronixTestSuite>
